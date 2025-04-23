@@ -1,0 +1,18 @@
+camera_sources:
+        North: videos/north.mp4
+        South: videos/south.mp4
+        East:  videos/east.mp4
+        West:  videos/west.mp4
+yolo:
+        config:   yolo/yolov3.cfg
+        weights:  yolo/yolov3.weights
+        names:    yolo/coco.names
+thresholds:
+        conf: 0.5
+        nms:  0.4
+optimizer:
+        min_green:         5
+        max_green:         60
+        emergency_priority: 0.7
+        predictive_history: 3
+        sample_duration:    1.0

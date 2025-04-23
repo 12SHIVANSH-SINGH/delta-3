@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lane {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.green {
+    background: #e8fceb;
+}
+
+.red {
+    background: #fdecea;
+}
+img {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+  }
+  
